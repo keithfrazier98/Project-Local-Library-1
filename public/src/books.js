@@ -25,7 +25,6 @@ function getBorrowersForBook(book, accounts) {
     transactionArray.push({ ...borrow, ...account });
   });
 
-  console.log(transactionArray);
 
   let cutTopTen = (array) => [
     array[0],

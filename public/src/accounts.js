@@ -33,8 +33,6 @@ function getBooksPossessedByAccount(account, books, authors) {
     book.author = findAuthorById(authors, book.authorId);
   });
 
-  console.log(booksCheckOutByAcc);
-
   return booksCheckOutByAcc;
 }
 
